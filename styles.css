@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+  color: darkolivegreen;
+  text-align: center;
+  font-weight: 300;
+}
+.friend {
+  background-color: lightsalmon;
+  margin: 1em;
+  padding: 2em;
+  border: 20px solid palevioletred;
+  display: block;
+  border-radius: 10px 20px;
+  position: relative;
+  text-align: center;
+}
+
+.friend > h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: darkmagenta;
+}
+
+p {
+  color: darkslateblue;
+  font-weight: 600;
+}
+
+button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color:lightseagreen;
+  border-color:lightseagreen;
+  font-weight: 700;
+  padding: 5px 10px;
+}
